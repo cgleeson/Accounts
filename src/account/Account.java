@@ -80,11 +80,11 @@ public class Account {
 		String result="";
 		for(Transaction t : transactions){
 			if (t != null)
-			result+= "\n"+t.toString();
+				result+= "\n"+t.toString();
 		}
 		return result;
 	}
-	
+
 
 
 }
